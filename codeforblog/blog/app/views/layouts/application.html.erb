@@ -16,7 +16,8 @@
   <body>
 
   	<header id="main_navigation" class="clearfix">
-        <a href="index.html" class="name">shubh_spcl</a>
+  		<%= link_to "shubh_spcl", root_path, class: "name" %>
+        
         <nav>
         	<%= link_to "Articles", posts_path %>
             <!-- <a href="articles.html">Articles</a> -->
@@ -26,5 +27,14 @@
 
     </header>
     <%= yield %>
+
+    <footer id="main_footer">
+        <p class="copyright">&copy;2018 shubh_spcl</p>
+        <nav>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </nav>
+    </footer>
   </body>
 </html>
