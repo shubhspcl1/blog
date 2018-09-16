@@ -1,0 +1,19 @@
+current directory: /home/shubh_spcl/codeforblog/blog/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+/home/shubh_spcl/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20180916-3333-8tdeea.rb extconf.rb
+creating Makefile
+
+current directory: /home/shubh_spcl/codeforblog/blog/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/shubh_spcl/codeforblog/blog/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling locker.c
+compiling context.c
+compiling threads.c
+compiling breakpoint.c
+compiling byebug.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/shubh_spcl/codeforblog/blog/vendor/bundle/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20180916-3333-1prz289/byebug
