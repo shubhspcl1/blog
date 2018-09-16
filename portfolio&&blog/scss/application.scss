@@ -1,0 +1,44 @@
+@import 'normalize';
+
+$dark: #424652;
+$light: #9a9da4;
+$highlight: #8bc6db;
+$border: #E9E9E9;
+
+
+.clearfic:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+#main_navigation{
+    padding: 2.5em 5%;
+    border-bottom: 1px solid $dark;
+    .name{
+        font-weight: 700;
+        font-size: .87em;
+        text-transform: uppercase;
+        border: 2px solid $border;
+        padding: .75em 1rem;
+        text-decoration: none;
+        color: $dark;
+        float: left;
+    }
+    nav{
+        float: right;
+        padding-top: .9 rem;
+        a{
+            color: $dark;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+    }
+}
+
